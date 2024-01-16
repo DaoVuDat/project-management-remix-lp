@@ -1,5 +1,5 @@
 import { cssBundleHref } from "@remix-run/css-bundle";
-import type { LinksFunction } from "@remix-run/node";
+import type {LinksFunction, MetaFunction} from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -9,9 +9,17 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+import tailwindStylesheetUrl from "./styles/tailwind.css"
+
 export const links: LinksFunction = () => [
+  {rel: "stylesheet", href: tailwindStylesheetUrl},
+  {rel: "preconnect", href: "https://fonts.googleapis.com"},
+  {rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous"},
+  {rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Varela&display=swap"},
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];
+
+
 
 export default function App() {
   return (
@@ -22,7 +30,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className={`font-archia antialiased scroll-smooth bg-background-color relative w-full `}>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
