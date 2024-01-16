@@ -90,7 +90,7 @@ export function Features({ className, id }: BaseProp) {
             <br />
             Join us in mastering streamlined progress!
           </p>
-          <div className="absolute w-44 lg:w-full h-16 lg:h-[140%] bg-secondary -bottom-[70px] lg:-bottom-[150%] right-5 lg:right-0 flex justify-around items-center">
+          <div className="absolute z-10 w-44 lg:w-full h-16 lg:h-[140%] bg-secondary -bottom-[70px] lg:-bottom-[150%] right-5 lg:right-0 flex justify-around items-center">
             <div className=" lg:ml-4 flex space-x-2 lg:space-x-1 justify-center items-center">
               <div className="text-4xl lg:text-6xl">20</div>
               <div className="flex flex-col -space-y-1 text-sm lg:text-base">

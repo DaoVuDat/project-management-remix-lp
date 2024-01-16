@@ -1,5 +1,5 @@
 import { cssBundleHref } from "@remix-run/css-bundle";
-import type {LinksFunction, MetaFunction} from "@remix-run/node";
+import type {LinksFunction} from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -8,7 +8,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-
+import "plyr-react/plyr.css"
 import tailwindStylesheetUrl from "./styles/tailwind.css"
 
 export const links: LinksFunction = () => [

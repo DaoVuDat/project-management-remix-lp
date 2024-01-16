@@ -8,3 +8,8 @@
         text-orientation: mixed;
     }
 }
+
+.plyr {
+    width: auto;
+    height: 100%;
+}
