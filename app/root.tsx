@@ -9,7 +9,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import "plyr-react/plyr.css"
-import tailwindStylesheetUrl from "./styles/tailwind.css"
+import tailwindStylesheetUrl from "~/styles/tailwind.css"
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),

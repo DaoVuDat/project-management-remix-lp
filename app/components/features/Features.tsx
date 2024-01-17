@@ -4,8 +4,8 @@ import { FaRegHandshake } from "react-icons/fa";
 import { GiProgression } from "react-icons/gi";
 import React from "react";
 import clsx from "clsx";
-import { Dot } from "../shared/Dot";
-import { VideoPlayer } from "../features/VideoPlayer";
+import { Dot } from "~/components/shared/Dot";
+import { VideoPlayer } from "~/components/features/VideoPlayer";
 
 interface FeatProps {
   feat: {

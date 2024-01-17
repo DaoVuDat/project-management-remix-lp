@@ -1,9 +1,9 @@
 import { Card, TestimonialCustomer } from "./Card";
-import {useState, useRef, useLayoutEffect, useEffect} from "react";
+import {useState, useRef, useEffect} from "react";
 import { motion, useMotionValue, animate } from "framer-motion";
 import { HiArrowSmallLeft, HiArrowSmallRight } from "react-icons/hi2";
-import { Container } from "../shared/Container";
-import useWindowDimensions from "../../hooks/useWindowDimension";
+import { Container } from "~/components/shared/Container";
+import useWindowDimensions from "~/hooks/useWindowDimension";
 
 export function Carousel({
   testimonials,

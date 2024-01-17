@@ -1,12 +1,12 @@
 import { Container } from "../shared/Container";
 import clsx from "clsx";
-import { Dot } from "../shared/Dot";
+import { Dot } from "~/components/shared/Dot";
 import { useState } from "react";
-import avoa from "../../assets/images/avoa_greenhouse.webp";
-import poa from "../../assets/images/poa_cvrp.webp";
-import alo from "../../assets/images/alo_site_layout.webp";
-import dlgwo from "../../assets/images/dl_gwo_bim.webp";
-import da from "../../assets/images/da_supply_chain.webp";
+import avoa from "~/assets/images/avoa_greenhouse.webp";
+import poa from "~/assets/images/poa_cvrp.webp";
+import alo from "~/assets/images/alo_site_layout.webp";
+import dlgwo from "~/assets/images/dl_gwo_bim.webp";
+import da from "~/assets/images/da_supply_chain.webp";
 import { Project, ProjectType } from "./Project";
 import { ProjectMobile } from "./ProjectMobile";
 

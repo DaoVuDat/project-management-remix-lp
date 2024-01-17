@@ -1,9 +1,9 @@
 import clsx from "clsx";
 import { Container } from "./Container";
 import { Dot } from "./Dot";
-import hero1 from "../../assets/images/hero1.webp";
-import hero2 from "../../assets/images/hero2.webp";
-import hero3 from "../../assets/images/hero3.webp";
+import hero1 from "~/assets/images/hero1.webp";
+import hero2 from "~/assets/images/hero2.webp";
+import hero3 from "~/assets/images/hero3.webp";
 
 function HeroImageCover({
   src,

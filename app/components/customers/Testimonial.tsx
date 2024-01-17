@@ -1,8 +1,8 @@
 import { BaseProp, Container } from "../shared/Container";
 import clsx from "clsx";
-import { Dot } from "../shared/Dot";
-import { TestimonialCustomer } from "../customers/Card";
-import { Carousel } from "../customers/Carousel";
+import { Dot } from "~/components/shared/Dot";
+import { TestimonialCustomer } from "~/components/customers/Card";
+import { Carousel } from "~/components/customers/Carousel";
 
 const testimonials: TestimonialCustomer[] = [
   {

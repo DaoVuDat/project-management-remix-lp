@@ -22,3 +22,9 @@
     width: auto;
     height: 100%;
 }
+
+.plyr video {
+    display: block;
+    height: 100%;
+    width: auto;
+}
