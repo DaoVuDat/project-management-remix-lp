@@ -20,15 +20,29 @@
     }
 }
 
-
-
 .plyr {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .plyr video {
     display: block;
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
+
+
+@media (min-width: 1024px) {
+    .plyr {
+        width: auto;
+        height: 100%;
+    }
+    
+    .plyr video {
+        display: block;
+        height: 100%;
+        width: auto;
+    }
+}
+
+
